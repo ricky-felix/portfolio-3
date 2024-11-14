@@ -18,7 +18,7 @@ const versionHistory = [
 	},
 	{
 		version: "3.0.0 - Vite React",
-		date: "19 August 2023",
+		date: "19 August 2024",
 		changes: [
 			"Migrated the website to the current site",
 			"Deployed website online for everyone to see",
