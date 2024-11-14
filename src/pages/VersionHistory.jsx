@@ -22,7 +22,7 @@ const versionHistory = [
 		changes: [
 			"Migrated the website to the current site",
 			"Deployed website online for everyone to see",
-			"Link: https://rickyfelix025.vercel.app/",
+			"Link: https://v3-rickyfelix025.vercel.app/",
 		],
 	},
 	{
@@ -41,7 +41,7 @@ const versionHistory = [
 		changes: [
 			"Change image into icons",
 			"Insert icons into BentoBox",
-			"Link: https://v3.rickyfelix025.vercel.app/",
+			"Link: https://v3-rickyfelix025.vercel.app/",
 		],
 	},
 	{
