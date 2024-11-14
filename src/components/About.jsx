@@ -17,11 +17,10 @@ import {
 const About = ({ styles }) => {
 	return (
 		<section id="about" className="mb-24">
-			{/* Remove the heading since it's not in the reference image */}
-			<div className="grid grid-cols-3 gap-4 auto-rows-[minmax(100px,auto)]">
-				{/* Frontend Developer Card - Spans 2 columns */}
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[minmax(100px,auto)]">
+				{/* Frontend Developer Card */}
 				<div
-					className={`${styles.card} rounded-3xl p-6 col-span-2 backdrop-blur-sm`}
+					className={`${styles.card} rounded-3xl p-6 col-span-1 md:col-span-2 backdrop-blur-sm`}
 				>
 					<div className="h-full flex flex-col">
 						<h4 className="text-xl font-semibold mb-4 flex items-center gap-2">
@@ -75,7 +74,7 @@ const About = ({ styles }) => {
 					<p className="text-2xl font-bold">2 Years</p>
 				</div>
 
-				{/* Projects Completed Card - Single row */}
+				{/* Projects Completed Card */}
 				<div className={`${styles.card} rounded-3xl p-6 backdrop-blur-sm`}>
 					<div className="h-full">
 						<div className="flex items-center justify-between">
@@ -127,13 +126,13 @@ const About = ({ styles }) => {
 
 				{/* Framework Expertise Card */}
 				<div
-					className={`${styles.card} rounded-3xl p-6 col-span-2 backdrop-blur-sm`}
+					className={`${styles.card} rounded-3xl p-6 col-span-1 md:col-span-2 backdrop-blur-sm`}
 				>
 					<h4 className="font-medium flex items-center gap-2 mb-6">
 						<Laptop className="text-blue-500" size={20} />
 						Framework Expertise
 					</h4>
-					<div className="grid grid-cols-4 gap-4">
+					<div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
 						{[
 							{ name: "React", level: 65 },
 							{ name: "Tailwind CSS", level: 90 },
@@ -161,9 +160,7 @@ const About = ({ styles }) => {
 											strokeDasharray={`${framework.level * 1.51}, 151`}
 										/>
 									</svg>
-									<span
-										className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm`}
-									>
+									<span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-sm">
 										{framework.level}%
 									</span>
 								</div>
