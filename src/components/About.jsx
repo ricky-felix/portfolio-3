@@ -17,6 +17,8 @@ import {
 const About = ({ styles }) => {
 	return (
 		<section id="about" className="mb-24">
+			<h3 className="text-2xl font-bold mb-8">Who Am I?</h3>
+
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[minmax(100px,auto)]">
 				{/* Frontend Developer Card */}
 				<div
@@ -186,14 +188,19 @@ const About = ({ styles }) => {
 						<div>
 							<h4 className="font-medium flex items-center gap-2">
 								<MessageSquare className="text-blue-500" size={20} />
-								Wanna Chat?
+								Wanna a summary of my experience?
 							</h4>
-							<p className={`${styles.textMuted} text-sm mt-1`}>Always Open</p>
+							<p className={`${styles.textMuted} text-sm mt-1`}>
+								Click to download my resume
+							</p>
 						</div>
-						<button className="px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-all">
-							<a href="mailto:rickyfelix19@outlook.com" className="text-white">
-								Contact
-							</a>
+						<button
+							className="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-xl hover:bg-blue-600 transition-all"
+							onClick={() =>
+								window.open("./Ricky_Felix-Resume-UI_UX_Engineer.pdf", "_blank")
+							}
+						>
+							Download
 						</button>
 					</div>
 				</div>
