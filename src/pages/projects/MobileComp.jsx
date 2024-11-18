@@ -4,7 +4,7 @@ import NavBar from "../../components/common/NavBar";
 import { getStyles } from "../../components/styles";
 
 const lightGradient = `linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) no-repeat center`;
-const darkGradient = `linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%)`;
+const darkGradient = `linear-gradient(-20deg, #2b5876 0%, #4e4376 100%) no-repeat center`;
 
 const MobileComp = () => {
 	const [isDarkMode, setIsDarkMode] = useState(false);
