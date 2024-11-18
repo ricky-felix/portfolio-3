@@ -52,6 +52,11 @@ const versionHistory = [
 			"Link: https://rickyfelix025.vercel.app/",
 		],
 	},
+	{
+		version: "4.0.1",
+		date: "18 November 2024",
+		changes: ["Change dark mode color gradients to represent dark mode"],
+	},
 ];
 
 const VersionHistory = () => {
