@@ -197,7 +197,10 @@ const About = ({ styles }) => {
 						<button
 							className="inline-flex items-center bg-blue-500 text-white px-6 py-3 rounded-xl hover:bg-blue-600 transition-all"
 							onClick={() =>
-								window.open("./Ricky_Felix-Resume-UI_UX_Engineer.pdf", "_blank")
+								window.open(
+									"./Ricky_Felix-Resume-Junior_Product_Manager.pdf",
+									"_blank"
+								)
 							}
 						>
 							Download

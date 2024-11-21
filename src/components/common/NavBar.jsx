@@ -44,7 +44,7 @@ const NavBar = ({ isDarkMode, toggleDarkMode }) => {
 							<button
 								onClick={() =>
 									window.open(
-										"./Ricky_Felix-Resume-UI_UX_Engineer.pdf",
+										"./Ricky_Felix-Resume-Junior_Product_Manager.pdf",
 										"_blank"
 									)
 								}
@@ -87,7 +87,7 @@ const NavBar = ({ isDarkMode, toggleDarkMode }) => {
 							<button
 								onClick={() =>
 									window.open(
-										"./Ricky_Felix-Resume-UI_UX_Engineer.pdf",
+										"./Ricky_Felix-Resume-Junior_Product_Manager.pdf",
 										"_blank"
 									)
 								}
