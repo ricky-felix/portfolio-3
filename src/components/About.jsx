@@ -30,10 +30,9 @@ const About = ({ styles }) => {
 							Creative Developer
 						</h4>
 						<p className={`${styles.textMuted} mb-4`}>
-							I'm a passionate developer and designer with a total of 2 years of
-							experience building modern web and mobile applications. My focus
-							is creating intuitive user interfaces that make complex tasks feel
-							simple.
+							I'm a passionate UI/UX developer and product manager with a total
+							of 3.5 years of experience building modern seamless experience
+							within the digital age.
 						</p>
 					</div>
 				</div>
@@ -73,7 +72,7 @@ const About = ({ styles }) => {
 						<Trophy className="text-blue-500" size={20} />
 						Experience
 					</h4>
-					<p className="text-2xl font-bold">2 Years</p>
+					<p className="text-2xl font-bold">3.5 Years</p>
 				</div>
 
 				{/* Projects Completed Card */}
@@ -132,14 +131,14 @@ const About = ({ styles }) => {
 				>
 					<h4 className="font-medium flex items-center gap-2 mb-6">
 						<Laptop className="text-blue-500" size={20} />
-						Framework Expertise
+						Digital Expertise
 					</h4>
 					<div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
 						{[
 							{ name: "React", level: 65 },
-							{ name: "Tailwind CSS", level: 90 },
-							{ name: "Bootstrap 5", level: 85 },
-							{ name: "Node.js", level: 55 },
+							{ name: "Tailwind CSS", level: 70 },
+							{ name: "UI/UX", level: 75 },
+							{ name: "SQL", level: 55 },
 						].map((framework) => (
 							<div key={framework.name} className="text-center">
 								<div className="relative inline-flex mx-auto mb-2">
