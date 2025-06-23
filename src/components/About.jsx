@@ -94,10 +94,10 @@ const About = ({ styles }) => {
 				<div className={`${styles.card} rounded-3xl p-6 backdrop-blur-sm`}>
 					<h4 className="font-medium flex items-center gap-2 mb-4">
 						<BookOpen className="text-blue-500" size={20} />
-						Learning
+						Currently Learning
 					</h4>
 					<div className="flex flex-wrap gap-2">
-						{["Product Management", "SQL", "Python"].map((topic) => (
+						{["Product Management", "AI", "Psychology & Philosophy"].map((topic) => (
 							<span
 								key={topic}
 								className={`${styles.textMuted} text-sm px-3 py-1 rounded-full bg-white/10`}
