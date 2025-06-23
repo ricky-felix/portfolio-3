@@ -30,11 +30,11 @@ const Hero = ({ styles }) => {
 				className={`inline-flex items-center gap-2 px-4 py-2 rounded-full ${styles.card} backdrop-blur-sm mb-6`}
 			>
 				<Sparkles className="text-blue-500" size={20} />
-				<span>Currently Looking For Product Roles</span>
+				<span>Feel free to reach out!</span>
 			</div>
-			<h2 className="text-5xl font-bold mb-6">Creative Developer</h2>
+			<h2 className="text-5xl font-bold mb-6">Creative UI/UX Engineer</h2>
 			<p className={`text-xl ${styles.textMuted} max-w-2xl mx-auto mb-8`}>
-				Transforming Concepts into Seamless User Experience
+				With Experience within Product Manager
 			</p>
 			<div className="flex justify-center space-x-4">
 				{socialLinks.map((social, index) => (
