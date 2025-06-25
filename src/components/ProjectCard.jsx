@@ -30,7 +30,7 @@ const Projects = ({ styles }) => {
 			title: "USYD - IDEA 9102: IDEA Studio",
 			description:
 				"Bottled Moments is a created to introduce the connection of people to the lake by sending memories and gifts onto the lake (digitally). Our group received one of the best solution and was presented to the clienteles at mapMIMA.",
-			tags: ["Tailwind CSS", "p5.js", "Figma", "Miro"],
+			tags: ["Tailwind CSS", "p5.js", "Resolume", "Figma", "Miro"],
 			link: "/projects/idea-studio",
 			github: "https://github.com/rickyfelix19/bottled-moments",
 			image: "./home/Bottled_Moments.webp",
